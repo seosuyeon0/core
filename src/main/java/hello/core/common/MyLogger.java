@@ -12,6 +12,7 @@ import java.util.UUID;
 @Scope(value = "request", proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class MyLogger {
 
+    // uuid
     private String uuid;
     private String requestURL;
     public void setRequestURL(String requestURL) {
